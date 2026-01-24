@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Data Sistah - AI Development & Consulting services focused on building, improving, and supporting AI-powered software and data science applications.">
-    <title>Data Sistah | AI Development & Consulting</title>
-    <!-- Exactly matching AITeachPro design - January 24, 2026 -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>DATA SISTAH - AI Development & Consulting</title>
     <link rel="stylesheet" href="styles.css">
-</head>
-<body class="dark-mode">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -22,182 +19,240 @@
                     </div>
                     <div class="logo-text">
                         <h2>DATA SISTAH</h2>
-                        <span class="tagline">AI Development & Consulting</span>
+                        <span>AI Development & Consulting</span>
                     </div>
                 </div>
             </div>
-            <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="nav-right">
-                <ul class="nav-menu">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#services" class="nav-link">Services</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-                <button class="theme-toggle" aria-label="Toggle theme">
-                    <i class="fas fa-moon"></i>
-                    <i class="fas fa-sun"></i>
-                </button>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="hero-gradient"></div>
-            <div class="hero-particles"></div>
-        </div>
-        <div class="container">
+        <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-badge">
-                    <i class="fas fa-star"></i>
-                    <span>Professional AI Development Services</span>
+                    <i class="fas fa-bolt"></i>
+                    <span>Transform Your Business with AI</span>
                 </div>
-                <h1 class="hero-title">
-                    <span class="gradient-text">DATA SISTAH</span>
-                </h1>
-                <h2 class="hero-subtitle">AI Development & Consulting</h2>
-                <p class="hero-description">
-                    AI development and consulting services focused on building, improving, and supporting AI-powered software and data science applications.
-                </p>
-                <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary">
-                        <span>Get Started</span>
-                        <i class="fas fa-arrow-right"></i>
+                <h1 class="hero-title">Practical, Responsible AI Solutions</h1>
+                <p class="hero-subtitle">Empowering businesses with custom AI development, seamless LLM integration, and strategic consulting. From concept to implementation, we deliver AI applications that drive real results.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Explore Services
                     </a>
-                    <a href="#services" class="btn btn-secondary">
-                        <span>Learn More</span>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-comments"></i>
+                        Get Started
                     </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Overview Section -->
-    <section class="overview">
-        <div class="container">
-            <div class="overview-content">
-                <div class="section-badge">
-                    <i class="fas fa-lightbulb"></i>
-                    <span>About Our Services</span>
-                </div>
-                <h2>Expert AI Solutions for Modern Software</h2>
-                <p>
-                    Data Sistah provides artificial intelligence (AI) development and consulting services centered on how AI is designed, developed, and applied within software-based products. Work includes supporting AI-powered applications and data science solutions intended for use within software or SaaS-style environments.
-                </p>
-                <p>
-                    Projects may range from early-stage concepts and prototypes to more developed AI-driven applications.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">Services</h2>
-            
-            <div class="service-cards">
-                <!-- AI Development -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="16 18 22 12 16 6"></polyline>
-                            <polyline points="8 6 2 12 8 18"></polyline>
-                        </svg>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <div class="ai-brain">
+                        <i class="fas fa-brain"></i>
+                        <div class="neural-network">
+                            <div class="neural-node"></div>
+                            <div class="neural-node"></div>
+                            <div class="neural-node"></div>
+                            <div class="neural-node"></div>
+                            <div class="neural-node"></div>
+                            <div class="neural-node"></div>
+                        </div>
                     </div>
-                    <h3>AI Development</h3>
-                    <p>
-                        Data Sistah supports the design and development of AI-powered software applications. This includes:
-                    </p>
-                    <ul>
-                        <li>AI feature development for software applications</li>
-                        <li>Data science solutions built for software-based platforms</li>
-                        <li>Enhancements and improvements to existing AI implementations</li>
-                        <li>Development support for AI-powered tools and applications</li>
-                    </ul>
-                    <p class="service-note">
-                        Services may support applications intended for SaaS or software-based delivery.
-                    </p>
-                </div>
-
-                <!-- LLM Integration -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                        </svg>
+                    <div class="floating-elements">
+                        <div class="element element-1">
+                            <i class="fas fa-robot"></i>
+                            <span>Develop</span>
+                        </div>
+                        <div class="element element-2">
+                            <i class="fas fa-cogs"></i>
+                            <span>Integrate</span>
+                        </div>
+                        <div class="element element-3">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Consult</span>
+                        </div>
                     </div>
-                    <h3>Large Language Model Integration</h3>
-                    <p>
-                        Services include working with large language models (LLMs) as part of AI-powered applications. This work may involve:
-                    </p>
-                    <ul>
-                        <li>Experimenting with LLM behavior within applications</li>
-                        <li>Refining how LLMs are used to support application features</li>
-                        <li>Supporting decisions related to LLM integration and usage</li>
-                        <li>Assisting with early-stage development involving LLM-based functionality</li>
-                    </ul>
-                </div>
-
-                <!-- AI Consulting -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="9" cy="7" r="4"></circle>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                        </svg>
-                    </div>
-                    <h3>AI Consulting</h3>
-                    <p>
-                        Data Sistah provides consulting services in the field of artificial intelligence technology. Consulting work includes:
-                    </p>
-                    <ul>
-                        <li>Advising on AI and data science application design</li>
-                        <li>Reviewing AI-powered software implementations</li>
-                        <li>Guiding technical decisions related to AI usage</li>
-                        <li>Supporting teams or individuals applying AI to software projects</li>
-                    </ul>
-                    <p class="service-note">
-                        Consulting is focused on practical application rather than theory.
-                    </p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Engagement Section -->
-    <section class="engagement">
-        <div class="container">
-            <h2>Engagement Approach</h2>
-            <p>
-                Engagements are offered on a consulting and development basis. Data Sistah works with individuals, teams, and organizations seeking support with AI development, data science applications, or AI-related software projects.
-            </p>
-            <p>
-                Work may support projects intended for delivery through software-based platforms or SaaS-style solutions.
-            </p>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>
-                        Data Sistah is led by Tiffany Teasley, a working data scientist and AI developer with hands-on experience applying AI and data science to real product work. 
-                    </p>
-                    <p>
-                        With experience working on AI development projects, the focus is on responsible, practical AI development that reflects how modern software is built and maintained.
-                    </p>
+                    <h2>AI Development That Delivers Results</h2>
+                    <h3 style="color: #667eea;">Led by Tiffany Teasley</h3>
+                    <p>DATA SISTAH is a specialized AI development and consulting practice led by Tiffany Teasley, a data scientist and AI developer with a passion for practical, responsible AI solutions. With extensive experience in artificial intelligence and machine learning, Tiffany transforms complex AI concepts into tangible business value.</p>
+                    <p>Her approach combines technical excellence with strategic thinking, ensuring that every AI implementation serves a clear business purpose. Whether developing custom GPT applications, integrating Large Language Models, or providing strategic AI consulting, DATA SISTAH focuses on building solutions that augment human capabilities and drive meaningful outcomes.</p>
+                    <div class="credentials">
+                        <div class="credential">
+                            <i class="fas fa-trophy"></i>
+                            <span>Data Scientist & AI Developer</span>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-code"></i>
+                            <span>10+ Years Tech Experience</span>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-award"></i>
+                            <span>50+ Successful Projects</span>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            Start Your AI Journey
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-container">
+                        <div class="profile-placeholder" style="width: 300px; height: 300px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user-circle" style="font-size: 150px; color: rgba(255,255,255,0.3);"></i>
+                        </div>
+                        <div class="profile-overlay">
+                            <h4>Tiffany Teasley</h4>
+                            <span>Data Scientist & AI Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose" class="why-create">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose DATA SISTAH?</h2>
+                <p>Practical AI solutions built on expertise and responsibility</p>
+            </div>
+            
+            <div class="revelation-grid">
+                <div class="revelation-card main-revelation">
+                    <div class="revelation-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Responsible AI Development</h3>
+                    <p>We prioritize ethical AI practices, ensuring your solutions are not only powerful but also responsible, transparent, and aligned with your values.</p>
+                </div>
+                
+                <div class="revelation-card">
+                    <div class="revelation-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Custom-Built Solutions</h3>
+                    <p>No cookie-cutter approaches. Every solution is tailored to your specific needs, challenges, and business objectives.</p>
+                </div>
+                
+                <div class="revelation-card">
+                    <div class="revelation-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Proven Results</h3>
+                    <p>With 50+ successful projects and 100% client satisfaction, we deliver AI solutions that create measurable business impact.</p>
+                </div>
+                
+                <div class="revelation-card">
+                    <div class="revelation-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>End-to-End Support</h3>
+                    <p>From initial consultation to implementation and beyond, we're your partner throughout the entire AI journey.</p>
+                </div>
+            </div>
+            
+            <div class="empowerment-statement">
+                <div class="statement-content">
+                    <h3>Ready to Transform Your Business?</h3>
+                    <p>Let's discuss how AI can drive real results for your organization. Schedule a consultation to explore the possibilities.</p>
+                    <a href="#contact" class="btn btn-accent">
+                        <i class="fas fa-calendar-check"></i>
+                        Get Started Today
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="what-are-gpts">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">Comprehensive AI solutions tailored to your business needs</p>
+            <div class="gpts-grid">
+                <div class="gpt-card">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Development</h3>
+                    <p>Custom AI applications and intelligent systems designed to solve your specific business challenges. From automation to advanced analytics, we build solutions that scale.</p>
+                    <div class="card-tools">
+                        <span class="tool">Custom GPT Applications</span>
+                        <span class="tool">Intelligent Automation</span>
+                        <span class="tool">Machine Learning Models</span>
+                    </div>
+                </div>
+                <div class="gpt-card">
+                    <div class="card-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>LLM Integration</h3>
+                    <p>Seamlessly integrate Large Language Models into your existing workflows and applications. Enhance your products with cutting-edge AI capabilities.</p>
+                    <div class="card-tools">
+                        <span class="tool">API Integration</span>
+                        <span class="tool">Prompt Engineering</span>
+                        <span class="tool">Performance Optimization</span>
+                    </div>
+                </div>
+                <div class="gpt-card">
+                    <div class="card-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>AI Consulting</h3>
+                    <p>Strategic guidance to help you navigate the AI landscape. We identify opportunities, assess feasibility, and create actionable roadmaps for AI adoption.</p>
+                    <div class="card-tools">
+                        <span class="tool">Strategy Development</span>
+                        <span class="tool">Technology Assessment</span>
+                        <span class="tool">Implementation Planning</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -206,14 +261,65 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
+            <h2>Let's Build Something Amazing</h2>
+            <p class="contact-intro">Ready to transform your business with AI? Contact Tiffany Teasley to discuss your project and explore how DATA SISTAH can help you achieve your goals.</p>
+            
             <div class="contact-content">
-                <p>
-                    For inquiries related to AI development, AI consulting, or project-based support, consultations are available.
-                </p>
                 <div class="contact-info">
-                    <p>Ready to discuss your AI project? Reach out to schedule a consultation.</p>
-                    <a href="mailto:contact@datasistah.com" class="btn btn-primary">Contact Us</a>
+                    <h3>Get Started</h3>
+                    <div class="services-list">
+                        <div class="service">
+                            <i class="fas fa-robot"></i>
+                            <div>
+                                <h4>Custom AI Development</h4>
+                                <p>Build intelligent applications tailored to your specific needs</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <i class="fas fa-project-diagram"></i>
+                            <div>
+                                <h4>LLM Integration</h4>
+                                <p>Seamlessly integrate powerful language models into your workflows</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Strategic AI Consulting</h4>
+                                <p>Navigate the AI landscape with expert guidance and planning</p>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Implementation Support</h4>
+                                <p>End-to-end assistance from concept through deployment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Ready to Get Started?</h3>
+                    <p>Let's discuss how DATA SISTAH can help transform your business with AI.</p>
+                    
+                    <div class="contact-options">
+                        <div class="contact-option">
+                            <div class="option-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h4>Contact Me Directly</h4>
+                            <p>Ready to discuss your AI goals? I'll respond within 48 hours.</p>
+                            <a href="mailto:datasistah@gmail.com?subject=AI%20Development%20Inquiry" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                                datasistah@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-note">
+                        <p><strong>Quick Response Guarantee:</strong> Send me an email and you'll hear back from me within 48 hours. I'm here to help you navigate your AI journey with confidence!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -222,9 +328,65 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Data Sistah. All rights reserved.</p>
-            <p>AI Development & Consulting</p>
-            <p>Contact: <a href="mailto:datasistah@gmail.com">datasistah@gmail.com</a></p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-container">
+                            <div class="logo-icon">
+                                <i class="fas fa-brain"></i>
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="logo-text">
+                                <h3>DATA SISTAH</h3>
+                                <span>AI Development & Consulting</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Empowering businesses with practical, responsible AI solutions that drive real results.</p>
+                    <div class="motto">
+                        <i class="fas fa-quote-left"></i>
+                        <span>Building AI that augments human capabilities</span>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">AI Development</a></li>
+                        <li><a href="#services">LLM Integration</a></li>
+                        <li><a href="#services">AI Consulting</a></li>
+                        <li><a href="#contact">Get Started</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#why-choose">Why Choose Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="contact-direct">
+                        <h5>Get In Touch</h5>
+                        <p class="contact-email">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:datasistah@gmail.com">datasistah@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 DATA SISTAH - Tiffany Teasley. Empowering businesses with AI.</p>
+                    <div class="footer-badges">
+                        <span class="badge">🤖 AI-Powered</span>
+                        <span class="badge">🎯 Results-Driven</span>
+                        <span class="badge">💡 Innovation-Focused</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
